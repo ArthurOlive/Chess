@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="./p5.min.js" ></script>
+        <style>
+            .row {
+                display : flex
+            }
+
+            .square {
+                display : flex;
+                align-items: center;
+                justify-content: center;
+                height: 80px;
+                width: 80px;
+            }
+
+            body {
+                display : flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #312e2b;
+            }
+
+            #mesa {
+                border-width: 1px;
+                border-color: black;
+                border-style: double;
+                background-color: rgb(240 217 181);
+                padding: 35px;
+            }
+
+            #tabuleiro{
+                border-width: 0.5px;
+                border-color: grey;
+                border-style: solid;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="mesa">
+            <div id="tabuleiro">
+            
+            </div>
+        </div>
+        <script src="./tabuleiro.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
